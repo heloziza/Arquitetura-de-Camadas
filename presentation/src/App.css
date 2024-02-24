@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(177, 233, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.background h1 {
+    position: absolute;
+    top: 40px;
+    width: 60%;
+    padding: 10px 0;
+    font-size: 2em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(250, 162, 199);
+}
+
+.background >*{
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(250, 162, 199);
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+    margin: 50px auto;
+}
+
+.generator-button{
+    width: 15%;
+    padding: 4px;
+    background-color: rgb(250, 162, 199);
+}
+
+input{
+    width: 30%;
+    padding: 5px;
+    background-color: rgb(250, 162, 199);
+}
+
+.try-button {
+    margin-top: 10px;
+}
+
+.resultado{
+    margin: 10px auto;
+    padding: 5px;
+}
